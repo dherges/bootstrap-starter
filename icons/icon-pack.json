@@ -1,0 +1,6 @@
+{
+  "icons": [
+    "example/forms/**/*.svg",
+    "example/Ducktaleslogo.svg"
+  ]
+}

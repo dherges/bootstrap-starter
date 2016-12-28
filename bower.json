@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-starter",
+  "description": "Starter package for a customized Bootstrap v4 theme",
+  "authors": [
+    "david herges <david@spektrakel.de>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "https://github.com/twbs/bootstrap.git#v4.0.0-alpha.4"
+  }
+}

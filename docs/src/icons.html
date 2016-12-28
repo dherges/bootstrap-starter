@@ -1,0 +1,26 @@
+---
+title: Icon Set
+lead: A set of SVG icons.
+layout: icons.hbs
+---
+
+<h1>Yeehaw!</h1>
+
+<p>
+  Icons are generated from a catalog definition file: <code>icons/icon-pack.json</code>
+</p>
+
+<p>
+  You can use <a href="https://gulp.readme.io/docs/gulpsrcglobs-options" target="_blank">glob file patterns</a>
+  to include SVG files in the generated output.
+  An index file that lists all included input files is written to: <code>dist/v{x}.{y}.{z}/icons/index.json</code>
+</p>
+
+<p>
+  For the time being, the task just copies those SVG files from
+  <code>icons</code> folder to <code>dist</code> folder. You could, however, add a SVG-to-Webfont plugin
+  such as <a href="https://github.com/johanbrook/gulp-fontcustom" target="_blank">gulp-fontcustom</a>,
+  <a href="https://github.com/nfroidure/gulp-svgicons2svgfont" target="_blank">gulp-svgicons2svgfont</a>,
+  <a href="https://github.com/nfroidure/gulp-iconfont" target="_blank">gulp-iconfont</a>, or
+  <a href="https://github.com/jvanaert/gulp-webfont" target="_blank">gulp-webfont</a>.
+</p>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>{{title}}</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../v{{pkg.version}}/styles/bv4.css">
+  <link rel="stylesheet" href="docs.css">
+</head>
+<body data-spy="scroll" data-target="#scrollspy-nav">
+
+{{> nav }}
+
+<div class="pageheader">
+  <div class="container">
+    <h1>{{title}}</h1>
+    <p class="lead">{{lead}}</p>
+  </div>
+</div>
+
+
+<div class="container">
+  {{{contents}}}
+</div>
+
+
+{{!--
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+--}}
+</body>
+</html>

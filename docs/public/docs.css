@@ -1,0 +1,86 @@
+body {
+  padding-bottom: 3rem;
+}
+
+.pageheader {
+  padding-top: 45px;
+  padding-bottom: 70px;
+  background-color: #ff432e;
+  margin-bottom: 120px;
+}
+
+.doc-block {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.responsive-utilities-test span {
+  display: inline-block;
+  width: 100%;
+  min-height: 45px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.is-visible, .visible {
+  background-color: #2bd698;
+}
+
+.is-hidden, .not-visible {
+  background-color: #eee;
+}
+
+.example-modal {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 1.5rem;
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -1rem;
+}
+
+.example-modal .modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+
+.example-modal .modal-dialog {
+  left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.example-tooltip {
+  height: 40px;
+}
+
+.example-tooltip .tooltip {
+  opacity: 1;
+}
+
+.example-popover {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.example-popover .popover {
+  opacity: 1;
+  position: static;
+}
